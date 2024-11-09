@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="img/girl.png" alt="Logo" width="100" height="100" />
+        </a>
+
+        <!-- Toggler for mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog Post</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+
+          <!-- Subscription Button -->
+          <button class="btn btn-primary" type="button">Subscribe</button>
+        </div>
+      </div>
+    </nav>
+
+<!-- Blog Post Section -->
+<div class="blog-post-section">
+    <h2 class="blog-post-heading">Blog Post Title</h2>
+    <img src="img/woman.png" alt="Blog Image" class="blog-post-image">
+    
+    <div class="blog-content">
+      <h3>Introduction to the Blog Post</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in neque nec velit fermentum pretium ut at quam. Sed a interdum justo. Phasellus euismod, nulla sit amet aliquam accumsan, est eros ullamcorper orci, et efficitur nisl lectus nec est.</p>
+      
+      <p><span class="highlight">Important Note:</span> Nullam dapibus metus ac dolor cursus, nec gravida magna venenatis. Donec vestibulum sapien at sapien tincidunt, a eleifend lorem volutpat. Proin sed tincidunt metus.</p>
+      
+      <h3>Main Content Section</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget leo ultricies, hendrerit eros a, sagittis orci. Donec tincidunt, felis sed malesuada fermentum, tortor dui fermentum nunc, nec ultrices purus nisl non ante. Vivamus lacinia fermentum justo, et aliquet nunc sagittis et.</p>
+  
+      <p>In hac habitasse platea dictumst. Integer sed justo ac eros suscipit ultricies. Curabitur gravida purus sed eros faucibus, non pharetra sapien tempor. Duis tincidunt, nunc a consequat convallis, nulla nulla tincidunt eros, et scelerisque dolor lorem vel lectus.</p>
+  
+      <h3>Conclusion</h3>
+      <p>Ut dapibus dui nec nibh accumsan, in sollicitudin justo dapibus. Integer convallis orci eget erat congue, id pretium metus sollicitudin. Nunc placerat velit a nulla consequat dapibus.</p>
+    </div>
+  </div>
+
+
+  <!-- What to Read Section -->
+<section class="what-to-read-section">
+    <h2 class="section-heading">What to Read</h2>
+    
+    <div class="articles-container">
+      <!-- Article 1 -->
+      <div class="article-card">
+        <img src="img/bag.jpg" alt="Article Image 1">
+        <div class="article-content">
+          <h3 class="article-heading">The Ultimate Guide to Web Development</h3>
+          <p class="article-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur libero eu odio commodo, vel pharetra nisl efficitur. Nulla facilisi. Integer et accumsan augue. Cras et pulvinar libero. Fusce venenatis ac risus sit amet pulvinar.</p>
+          <div class="article-info">
+            <span>Jan 10, 2023</span>
+            <span>By John Doe</span>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Article 2 -->
+      <div class="article-card">
+        <img src="img/bride.jpg" alt="Article Image 2">
+        <div class="article-content">
+          <h3 class="article-heading">How to Become a Successful Designer</h3>
+          <p class="article-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur libero eu odio commodo, vel pharetra nisl efficitur. Nulla facilisi. Integer et accumsan augue. Cras et pulvinar libero. Fusce venenatis ac risus sit amet pulvinar.</p>
+          <div class="article-info">
+            <span>Feb 15, 2023</span>
+            <span>By Jane Smith</span>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Article 3 -->
+      <div class="article-card">
+        <img src="img/carnival.jpg" alt="Article Image 3">
+        <div class="article-content">
+          <h3 class="article-heading">Tips for Writing Compelling Content</h3>
+          <p class="article-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur libero eu odio commodo, vel pharetra nisl efficitur. Nulla facilisi. Integer et accumsan augue. Cras et pulvinar libero. Fusce venenatis ac risus sit amet pulvinar.</p>
+          <div class="article-info">
+            <span>Mar 20, 2023</span>
+            <span>By Mark Wilson</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <div class="container my-5">
+        <div class="join-our-team">
+          <h2>Join Our Team</h2>
+          <p>
+            We’re always looking for talented and passionate individuals to be
+            part of our journey. At our company, we believe in creating an
+            inclusive and inspiring workplace.
+          </p>
+          <p>
+            Our team is dedicated to innovation, and we value creativity,
+            collaboration, and dedication in everything we do.
+          </p>
+          <p>
+            If you’re eager to grow professionally and make a meaningful impact,
+            we’d love to hear from you.
+          </p>
+          <p>
+            Come join us and be part of a team that’s committed to excellence and
+            making a difference.
+          </p>
+          <p>Let’s build a future together that we can all be proud of.</p>
+          <button class="btn">Join Now</button>
+        </div>
+      </div>
+    
+      <div class="subscribe-section">
+        <div class="subscribe-box">
+          <p class="subscribe-text">Subscribe to Our News</p>
+          <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+      </div>
+    
+      <!-- Optional JavaScript and Bootstrap JS -->
+      <script src="script.js"></script>
+      "
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+    </html>
+    
+    
+    

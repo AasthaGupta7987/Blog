@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="img/girl.png" alt="Logo" width="100" height="100" />
+        </a>
+
+        <!-- Toggler for mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog Post</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+
+          <!-- Subscription Button -->
+          <button class="btn btn-primary" type="button">Subscribe</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Featured Post Section -->
+    <div class="featured-post-section">
+      <div class="featured-post-content">
+        <h2>Featured Post</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel
+          augue nec tortor dapibus sollicitudin. Ut ut velit a lorem tincidunt
+          consectetur.
+        </p>
+        <p>
+          Fusce nec purus eget velit posuere fermentum in a magna. Etiam
+          fringilla, lacus nec viverra consectetur, libero metus dignissim odio,
+          in luctus orci metus eu orci.
+        </p>
+        <a href="#" class="read-more-button">Read More</a>
+      </div>
+    </div>
+
+    <!-- All Posts Section -->
+    <div class="all-posts-section">
+      <h2>All Posts</h2>
+
+      <!-- Post Item -->
+      <div class="post">
+        <img src="img/portrait-2299747_1280.jpg" alt="Post Image" />
+        <div class="post-content">
+          <h3>Identify Your Style</h3>
+          <p>
+            Jewelry can be bold and eye-catching or subtle and sophisticated.
+            Understanding your personal style is key to finding pieces that
+            resonate with you. Do you prefer classic, minimalist pieces, or do
+            you lean towards bohemian, vintage, or statement styles? Consider
+            the jewelry you already own and love to get a sense of your
+            preferences. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Curabitur vel augue nec tortor dapibus sollicitudin. Ut ut
+            velit a lorem tincidunt consectetur.
+          </p>
+        </div>
+      </div>
+
+      <div class="post">
+        <img src="img/jewellery-1203959_1280.jpg" alt="Post Image" />
+        <div class="post-content">
+          <h3>Know the Basics of Metals and Gemstones</h3>
+          <p>
+            Different metals and gemstones can significantly impact a jewelry
+            piece’s look, feel, and cost. Here’s a quick rundown: Metals: Gold,
+            silver, platinum, and rose gold each bring a unique warmth and
+            shine. Gold is timeless and traditional, while silver is versatile
+            and goes with almost anything. Gemstones: Diamonds are classic, but
+            colored gemstones like sapphires, emeralds, and rubies can add a
+            vibrant touch. Pearls are a more understated option, perfect for an
+            elegant look. Knowing the basics of metals and stones will help you
+            make more informed choices when selecting your pieces. Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit. Curabitur vel augue nec
+            tortor dapibus sollicitudin. Ut ut velit a lorem tincidunt
+            consectetur.
+          </p>
+        </div>
+      </div>
+
+      <div class="post">
+        <img src="img/flowers-4143241_1280.jpg" alt="Post Image" />
+        <div class="post-content">
+          <h3>Consider the Occasion</h3>
+          <p>
+            Are you shopping for a daily wear piece or something special for an
+            event? For everyday jewelry, simple and durable pieces are ideal.
+            For special occasions, such as weddings or anniversaries, you may
+            want to go with statement jewelry like chandelier earrings or an
+            intricate necklace that enhances your outfit. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Curabitur vel augue nec tortor
+            dapibus sollicitudin. Ut ut velit a lorem tincidunt consectetur.
+          </p>
+        </div>
+      </div>
+
+      <div class="post">
+        <img src="img/rose-5882890_1280.jpg" alt="Post Image" />
+        <div class="post-content">
+          <h3>Focus on Quality</h3>
+          <p>
+            Quality matters when it comes to jewelry. Look for reputable
+            jewelers and check for hallmark stamps on metals to ensure
+            authenticity. High-quality jewelry might be more expensive, but it
+            will last longer and retain its beauty over time. For gemstones,
+            consider factors like cut, clarity, carat, and color, especially if
+            you’re investing in fine jewelry. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Curabitur vel augue nec tortor dapibus
+            sollicitudin. Ut ut velit a lorem tincidunt consectetur.
+          </p>
+        </div>
+      </div>
+
+      <!-- Pagination Buttons -->
+      <div class="pagination">
+        <button>Previous</button>
+        <button>Next</button>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <!-- Main Heading -->
+      <div class="category-section">
+        <h2>Choose a Category</h2>
+      </div>
+
+      <div class="row">
+        <!-- Category Box 1 -->
+        <div class="col-md-3 mb-4">
+          <div class="category-box">
+            <img src="img/jewelry-1523668_1280.jpg" alt="Category Logo" />
+            <div class="category-content">
+              <h3>Handmade & Artisan Jewelry</h3>
+              <p>
+                . Unique, handcrafted pieces often made by small artisans or
+                local craftspeople. Can incorporate materials like leather,
+               
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Category Box 2 -->
+        <div class="col-md-3 mb-4">
+          <div class="category-box">
+            <img src="img/ring-66598_1280.jpg" alt="Category Logo" />
+            <div class="category-content">
+              <h3>Pearl Jewelry</h3>
+              <p>
+                Jewelry specifically focused on pearls, including necklaces,
+                earrings, and bracelets. Classic and timeless, suitable for both
+                
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Category Box 3 -->
+        <div class="col-md-3 mb-4">
+          <div class="category-box">
+            <img src="img/ruby-2426452_1280.jpg" alt="Category Logo" />
+            <div class="category-content">
+              <h3>Bridal Jewelry</h3>
+              <p>
+                Jewelry designed specifically for weddings and engagements.
+                Includes engagement rings, wedding bands, bridal sets, and 
+                jhsjfhfijeijeioej
+               
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Category Box 4 -->
+        <div class="col-md-3 mb-4">
+          <div class="category-box">
+            <img src="img/star-3056640_1280.jpg" alt="Category Logo" />
+            <div class="category-content">
+              <h3>Minimalist Jewelry</h3>
+              <p>
+                Simple, delicate pieces with clean lines and subtle designs.
+                Ideal for everyday wear and layering. Includes dainty rings,
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="join-our-team">
+        <h2>Join Our Team</h2>
+        <p>
+          We’re always looking for talented and passionate individuals to be
+          part of our journey. At our company, we believe in creating an
+          inclusive and inspiring workplace.
+        </p>
+        <p>
+          Our team is dedicated to innovation, and we value creativity,
+          collaboration, and dedication in everything we do.
+        </p>
+        <p>
+          If you’re eager to grow professionally and make a meaningful impact,
+          we’d love to hear from you.
+        </p>
+        <p>
+          Come join us and be part of a team that’s committed to excellence and
+          making a difference.
+        </p>
+        <p>Let’s build a future together that we can all be proud of.</p>
+        <button class="btn">Join Now</button>
+      </div>
+    </div>
+
+    <div class="subscribe-section">
+      <div class="subscribe-box">
+        <p class="subscribe-text">Subscribe to Our News</p>
+        <button class="btn btn-subscribe">Subscribe</button>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript and Bootstrap JS -->
+    <script src="script.js"></script>
+    "
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
